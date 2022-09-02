@@ -9,14 +9,37 @@ public class Score : MonoBehaviour
     [SerializeField]
     private int totalScore;
     [SerializeField]
+    private int winScore;
+    [SerializeField]
     private AudioSource addCoinSound;
     [SerializeField]
     private AudioSource decreaseCoinSound;
-    public TMP_Text textTotalScore;
+    [SerializeField]
+    private TMP_Text textTotalScore;
+    [SerializeField]
+    private TMP_Text textFinalScore;
+    [SerializeField]
+    private GameObject winLabel;
+    [SerializeField]
+    private GameObject loseLabel;
     public void StartScore()
     {
         totalScore = 0;
         WriteScore(totalScore);
+    }
+    public void EndGameScore()
+    {
+        if (totalScore>winScore)
+        {
+            winLabel.SetActive(true);
+            loseLabel.SetActive(false);
+        }
+        else
+        {
+            winLabel.SetActive(false);
+            loseLabel.SetActive(true);
+        }
+        textFinalScore.text = totalScore.ToString();
     }
     public void AddScorePoints(int addscore)
     {

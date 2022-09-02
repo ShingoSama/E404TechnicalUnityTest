@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
         gameStatus = gameState.EndGame;
         gameTimer.StopTimer();
         gameSpawner.StopSpawner();
+        gameScore.EndGameScore();
         panelGameUI.SetActive(!panelGameUI.active);
         panelEndGame.SetActive(!panelEndGame.active);
     }
@@ -84,6 +85,10 @@ public class GameManager : MonoBehaviour
     public void SpawnCoins()
     {
         gameSpawner.SpawnCoinsInitialize();
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
     }
     #region Set Dificulty
     public void SetDifficultyEasy(bool isOn)

@@ -178,6 +178,7 @@ MonoBehaviour:
   maxX: 6
   minY: 5
   maxY: -5
+  coinsToSpawn: 5
 --- !u!1001 &58765858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1354,7 +1355,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 516823132}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1375757092}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &516823132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1829,7 +1842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &577840280
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2737,9 +2750,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalScore: 0
+  winScore: 0
   addCoinSound: {fileID: 1678565501}
   decreaseCoinSound: {fileID: 1568372643}
   textTotalScore: {fileID: 1791876604}
+  textFinalScore: {fileID: 1526546450}
+  winLabel: {fileID: 577840279}
+  loseLabel: {fileID: 1262399190}
 --- !u!1001 &881544619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3990,7 +4007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1262399191
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4804,7 +4821,7 @@ GameObject:
   - component: {fileID: 1526546451}
   - component: {fileID: 1526546450}
   m_Layer: 5
-  m_Name: TextScore
+  m_Name: TextFinalScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6221,8 +6238,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279900698
-  m_fontColor: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
