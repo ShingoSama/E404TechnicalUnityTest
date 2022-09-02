@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: BoxEasy
   m_EditorClassIdentifier: 
   objectSpawnType: 2
-  spawnRate: 20
+  spawnRate: 30
   objectSpawn: {fileID: 667823038277812951, guid: adb116cebb81a7a4faa1f3e6e52dc84f, type: 3}

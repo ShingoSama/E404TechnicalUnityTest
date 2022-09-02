@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ShieldEasy
   m_EditorClassIdentifier: 
   objectSpawnType: 3
-  spawnRate: 30
+  spawnRate: 5
   objectSpawn: {fileID: 8330526482562427963, guid: 8a30df7b6b8629f4ebd25c1731c9d956, type: 3}

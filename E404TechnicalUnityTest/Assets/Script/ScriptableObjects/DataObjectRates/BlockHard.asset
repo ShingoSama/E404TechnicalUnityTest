@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: BlockHard
   m_EditorClassIdentifier: 
   objectSpawnType: 1
-  spawnRate: 0
+  spawnRate: 25
   objectSpawn: {fileID: 4130753783178692019, guid: 38ad218caa17b0940a367f92d14318b7, type: 3}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SphereHard
   m_EditorClassIdentifier: 
   objectSpawnType: 4
-  spawnRate: 0
+  spawnRate: 15
   objectSpawn: {fileID: 6350100773024710809, guid: 3cdd3c65e54f41748a78a1274a0845d4, type: 3}

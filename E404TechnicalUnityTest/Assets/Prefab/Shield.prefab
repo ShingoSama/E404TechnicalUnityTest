@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 8344015527064873961}
   - component: {fileID: 8320672018643736709}
   - component: {fileID: 4903160769680948373}
+  - component: {fileID: 4872937606902732589}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Untagged
@@ -155,7 +156,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8330526482562427963}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -5.607126, y: -2.256459, z: 0}
+  m_LocalPosition: {x: -0.8517399, y: 4.5661697, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3000783473210946429}
@@ -239,3 +240,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickSound: {fileID: 1822865130299556975}
   objectValues: {fileID: 11400000, guid: e189bf7f49d9c56468a22a75c209bb5d, type: 2}
+--- !u!95 &4872937606902732589
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8330526482562427963}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 38f1b489ab16dc04aa7319619f115b76, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using static DataDifficulty;
 
 public class GameManager : MonoBehaviour
@@ -23,6 +24,8 @@ public class GameManager : MonoBehaviour
     public GameObject panelGameUI;
     public GameObject panelEndGame;
     public GameObject difficultyToggle;
+    public Button buttonBackToMainMenu;
+    public Button buttonStartGame;
     private void Awake()
     {
         if (instance == null)
@@ -89,6 +92,14 @@ public class GameManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void BackToMainMenuSelected()
+    {
+        buttonBackToMainMenu.Select();
+    }
+    public void StartGameSelected()
+    {
+        buttonStartGame.Select();
     }
     #region Set Dificulty
     public void SetDifficultyEasy(bool isOn)

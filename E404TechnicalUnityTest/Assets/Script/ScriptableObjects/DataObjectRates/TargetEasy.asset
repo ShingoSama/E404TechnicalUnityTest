@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: TargetEasy
   m_EditorClassIdentifier: 
   objectSpawnType: 5
-  spawnRate: 20
+  spawnRate: 5
   objectSpawn: {fileID: 3899708874416492349, guid: 22a2909efb974c343b4e9aa74e98758a, type: 3}

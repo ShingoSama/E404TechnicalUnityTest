@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 97d20df391a1e854a98c38f73057ba50, type: 2}
   - {fileID: 11400000, guid: 86bccba08a96ddc4a97a2c70c9c1e562, type: 2}
   - {fileID: 11400000, guid: a099b9bd18fa965439214c789639acfe, type: 2}
-  MinTimeSpawn: 0
-  MaxTimeSpawn: 0
-  MinObjectSpawn: 0
-  MaxObjectSpawn: 0
+  MinTimeSpawn: 1
+  MaxTimeSpawn: 3
+  MinObjectSpawn: 3
+  MaxObjectSpawn: 6
