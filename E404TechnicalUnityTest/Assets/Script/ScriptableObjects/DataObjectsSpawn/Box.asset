@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d64ff0cae2d404468afd731b6b02e4e, type: 3}
   m_Name: Box
   m_EditorClassIdentifier: Assembly-CSharp::ObjectSpawn
+  objectSpawnType: 2
   maxHealth: 1
   pointsWin: -5
   pointsLose: 0

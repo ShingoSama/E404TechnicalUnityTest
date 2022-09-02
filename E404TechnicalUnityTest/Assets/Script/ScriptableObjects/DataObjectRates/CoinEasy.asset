@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb4c8472899be945808158a00d74be1, type: 3}
+  m_Name: CoinEasy
+  m_EditorClassIdentifier: 
+  objectSpawnType: 0
+  spawnRate: 10
+  objectSpawn: {fileID: 457770431752467613, guid: 7e66e4d3034d5754ebe03793e5888fa8, type: 3}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0a28aaa921fae4780fcb4bdf9eb381, type: 3}
+  m_Name: Hard
+  m_EditorClassIdentifier: 
+  Diffyculty: 2
+  Object:
+  - {fileID: 11400000, guid: ae484d28ae42db84cb9ac50f6b1b4549, type: 2}
+  - {fileID: 11400000, guid: c92b267db53be61448f490d0d722a31b, type: 2}
+  - {fileID: 11400000, guid: 4351bda41e61e5f439f753c92594cf07, type: 2}
+  - {fileID: 11400000, guid: cf537ff5bdb357a4eb9de70c8cf116bd, type: 2}
+  - {fileID: 11400000, guid: efc8fe87fbf1868449aa5336f553c995, type: 2}
+  - {fileID: 11400000, guid: c62de31d9137cea4ab12c6fdecf5c172, type: 2}
+  MinTimeSpawn: 0
+  MaxTimeSpawn: 0
+  MinObjectSpawn: 0
+  MaxObjectSpawn: 0
